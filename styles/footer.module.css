@@ -1,0 +1,49 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cryptic {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #DDDDDD;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem;
+}
+
+.socials svg {
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.socials svg:hover {
+  transform: scale(1.1);
+  color: #ff6600; /* Flame hover */
+}
+
+.madeBy {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}

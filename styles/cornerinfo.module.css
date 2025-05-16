@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 35%;
+    width: 85%;
+    position: absolute; /* inside Hero */
+    left: 0;
+    z-index: 1;
+    pointer-events: none; /* Optional: allows clicks to pass through */
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 1rem;
+  }
+  
+  .gridWrapper > div {
+    width: 200px;
+    color: white;
+    pointer-events: auto;
+  }
+  
+  .topLeft {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    align-self: start;
+  }
+  
+  .topRight {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    align-self: start;
+    text-align: right;
+  }
+  
+  .bottomLeft {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+    align-self: end;
+  }
+  
+  .bottomRight {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: end;
+    align-self: end;
+    text-align: right;
+  }
+  
+  .gridWrapper h2{
+    color: #DDDDDD;
+    font-family: "Amarante", serif;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  .gridWrapper p{
+    color: #526D82;
+    font-family: "Amarante", serif;
+    font-size: 1.3rem;
+    text-align: center;
+  }

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+.wrapper {
+    margin-top: 300px; /* Push it below CornerInfo */
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #526D82;
+    border-top: none;
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.05);
+  }
+  
+  
+  .title h1 {
+    font-size: 5rem;
+    margin: 0;
+    line-height: 1.2;
+    font-family: "Amarante", serif;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 4rem;
+    opacity: 0.85;
+    font-family: "Amarante", serif;
+    color: #DDDDDD;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .gridRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  
+  .item {
+    flex: 1 1 20%;
+    min-width: 100px;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .item h3 {
+    font-size: 1.5rem;
+    margin: 5px;
+    color: #526D82;
+    font-family: "Amarante", serif;
+  }
+  
+  .item p {
+    font-size: 0.95rem;
+    opacity: 0.8;
+    margin: 1px;
+    width: 60;
+    color: #DDDDDD;
+    font-family: "Amarante", serif;
+  }
+  
