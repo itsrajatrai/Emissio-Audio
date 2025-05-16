@@ -1,0 +1,62 @@
+.hero {
+  background-image: url('../public/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 85%;
+  margin: 0 auto;  
+}
+
+/* Navigation styles */
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero content */
+.overlay {
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
